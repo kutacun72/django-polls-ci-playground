@@ -7,14 +7,14 @@
     [
       "@semantic-release/exec",
       {
-        prepareCmd: "python publish/bump_version.py \"
+        prepareCmd: "python publish/bump_version.py ${nextRelease.version}"
       }
     ],
     [
       "@semantic-release/git",
       {
         assets: ["CHANGELOG.md", "VERSION"],
-        message: "chore(release): \ [skip ci]\n\n\"
+        message: "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
     "@semantic-release/github"
