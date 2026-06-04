@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/kutacun72/django-polls-ci-playground/compare/v2.0.0...v2.0.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* keep localhost deployment server running ([a69dff7](https://github.com/kutacun72/django-polls-ci-playground/commit/a69dff782fe91e7dc9e9c5ac8e6bd7943d41181e))
+
 # [2.0.0](https://github.com/kutacun72/django-polls-ci-playground/compare/v1.1.0...v2.0.0) (2026-06-04)
 
 
