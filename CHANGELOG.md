@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/kutacun72/django-polls-ci-playground/compare/v1.1.0...v2.0.0) (2026-06-04)
+
+
+* Merge pull request [#3](https://github.com/kutacun72/django-polls-ci-playground/issues/3) from kutacun72/break/readme-file-changed ([1b25f69](https://github.com/kutacun72/django-polls-ci-playground/commit/1b25f69daeb137a35e884989484817e2541465e3))
+
+
+### BREAKING CHANGES
+
+* Readme file changed major.
+
 # [1.1.0](https://github.com/kutacun72/django-polls-ci-playground/compare/v1.0.1...v1.1.0) (2026-06-04)
 
 
