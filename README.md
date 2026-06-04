@@ -1,4 +1,14 @@
-﻿# Django Polls Backend
+﻿
+@"
+<!-- This is a bug fix -->
+
+$(Get-Content README.md -Raw)
+"@ | Out-File -Encoding utf8 README.md
+
+
+
+# Django Polls Backend
+
 
 This project was developed by following the official Django tutorial.
 
