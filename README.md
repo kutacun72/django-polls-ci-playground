@@ -1,5 +1,14 @@
 ﻿
 @"
+<!-- This is a feature update -->
+
+$(Get-Content README.md -Raw)
+"@ | Out-File -Encoding utf8 README.md
+
+
+
+
+@"
 <!-- This is a bug fix -->
 
 $(Get-Content README.md -Raw)
