@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kutacun72/django-polls-ci-playground/compare/v1.0.1...v1.1.0) (2026-06-04)
+
+
+### Features
+
+* Readme file changed feature. ([9db6602](https://github.com/kutacun72/django-polls-ci-playground/commit/9db660282fa30a4546a7eca10b6cd966f3e69af3))
+
 ## [1.0.1](https://github.com/kutacun72/django-polls-ci-playground/compare/v1.0.0...v1.0.1) (2026-06-04)
 
 
