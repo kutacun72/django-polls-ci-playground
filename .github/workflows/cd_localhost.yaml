@@ -42,6 +42,7 @@ jobs:
       - name: Start Django server on localhost
         shell: powershell
         run: |
-          Start-Process -FilePath "python" -ArgumentList "manage.py runserver 127.0.0.1:8000" -WorkingDirectory "$env:GITHUB_WORKSPACE"
+          $env:RUNNER_TRACKING_ID = ""
+          Start-Process -FilePath "cmd.exe" -ArgumentList "/c start `"django-polls-server`" python manage.py runserver 127.0.0.1:8000" -WorkingDirectory "$env:GITHUB_WORKSPACE"
           Start-Sleep -Seconds 8
           Invoke-WebRequest -Uri "http://127.0.0.1:8000/polls/" -UseBasicParsing
